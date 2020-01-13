@@ -1,0 +1,18 @@
+<div class="card-footer">
+    <div class="row">
+        <div class="col-sm devices-left">
+            <strong class="text-muted-device" [ngStyle]="{color: footerData[0].color}">{{footerData[0].name}}</strong>
+        </div>
+        <div class="col-sm devices-right">
+            <strong class="text-muted-device" [ngStyle]="{color: footerData[1].color}">{{footerData[1].name}}</strong>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm devices-left">
+            <small class="text-muted-porcenter">{{footerData[0].porcenter}}%</small> <small class="text-muted-total">{{footerData[0].sales}}</small>
+        </div>
+        <div class="col-sm devices-right">
+            <small class="text-muted-porcenter">{{footerData[1].porcenter}}%</small> <small class="text-muted-total">{{footerData[1].sales}}</small>
+        </div>
+    </div>
+</div>

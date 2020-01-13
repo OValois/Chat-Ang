@@ -1,0 +1,65 @@
+{
+  "report": "",
+  "data": [
+    {
+      "tittle": "REVENUE",
+      "total": "200.000€",
+      "devices": [
+        {
+          "name": "Tablet",
+          "sales": "120.000€",
+          "porcenter": 60,
+          "count": 10,
+          "color": "#82D144"
+        },
+        {
+          "name": "Smartphone",
+          "sales": "80.000€",
+          "porcenter": 40,
+          "count": 10,
+          "color": "#37670B"
+        }
+      ]
+    },
+    {
+      "tittle": "IMPRESIONS",
+      "total": "50.000.00",
+      "devices": [
+        {
+          "name": "Tablet",
+          "sales": "20.000.00",
+          "porcenter": 40,
+          "count": 10,
+          "color": "#73C5E3"
+        },
+        {
+          "name": "Smartphone",
+          "sales": "30.000.000",
+          "porcenter": 60,
+          "count": 10,
+          "color": "#335261"
+        }
+      ]
+    },
+    {
+      "tittle": "VISITS",
+      "total": "600.000.00",
+      "devices": [
+        {
+          "name": "Tablet",
+          "sales": "480.000.00",
+          "porcenter": 80,
+          "count": 10,
+          "color": "#F0B931"
+        },
+        {
+          "name": "Smartphone",
+          "sales": "120.000.000",
+          "porcenter": 20,
+          "count": 10,
+          "color": "#B85526"
+        }
+      ]
+    }
+  ]
+}

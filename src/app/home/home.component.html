@@ -1,0 +1,28 @@
+<div *ngFor="let dArrayM of dArrayM | async">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="char-center" id="DeviceChart" #DeviceChart>
+                            <div id="chartAndDataContainer">
+                                <div id="chartContainer">
+                                    <div class="bottom">
+                                        <div id="GraphChart" #GraphChart class="align-chart">
+                                            <app-graph-char #GraphChart [data]="grData"></app-graph-char>
+                                        </div>
+                                    </div>
+                                        <app-donut-chart #DevicesChart [data]="chartData">
+                                        </app-donut-chart>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="FooterChar" #FooterChart>
+                        <app-footer-chart #FooterChart [footerData]="chartData"></app-footer-chart>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
